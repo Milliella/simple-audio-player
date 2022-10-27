@@ -1,1 +1,1 @@
-# simple-audio-player
+# simple-audio-stub

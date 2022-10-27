@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(201, 207, 207);
+}
+h4{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 100;
+    user-select: none;
+    padding-bottom: 4px;
+}
+#container{
+    width: 330px;
+    height: 50px;
+    background-color: #5f9ea0;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#play-pause-button{
+    width:20px;
+    height: 20px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+#current-time{
+    width: 45px;
+    padding-left: 8px;
+}
+#time-divider{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#total-time{
+    width: 50px;
+    padding-left: 5px;
+}
+#seek-bar{
+    width: 150px;
+    cursor: pointer; margin-left: 10px;
+}
